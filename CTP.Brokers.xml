@@ -334,4 +334,23 @@
       </ServerItem>
     </Server>
   </BrokerItem>
+  
+  <BrokerItem>
+    <Label>国泰君安期货</Label>
+    <Server>
+      <ServerItem>
+        <AuthCode />
+        <BrokerID>1004</BrokerID>
+        <Trading>
+          <string>tcp://ctpsim-front02.gfqh.cn:43205</string>
+           <string>tcp://58.248.22.76:43205</string>
+        </Trading>
+        <MarketData>
+          <string>tcp://ctpsim-front02.gfqh.cn:43213</string>
+          <string>tcp://58.248.22.76:43213</string>
+        </MarketData>
+        <Label>国泰君安期货模拟（联通）</Label>
+      </ServerItem>
+    </Server>
+  </BrokerItem>
 </ArrayOfBrokerItem>
