@@ -353,4 +353,22 @@
       </ServerItem>
     </Server>
   </BrokerItem>
+  
+  <BrokerItem>
+    <Label>南华期货</Label>
+    <Server>
+      <ServerItem>
+        <AuthCode />
+        <BrokerID>1008</BrokerID>
+        <Trading>
+           <string>tcp://115.238.106.252:41205</string>
+        </Trading>
+        <MarketData>
+          <string>tcp://115.238.106.252:41213</string>
+        </MarketData>
+        <Label>南华期货模拟（联通）</Label>
+      </ServerItem>
+    </Server>
+  </BrokerItem>
+  
 </ArrayOfBrokerItem>
