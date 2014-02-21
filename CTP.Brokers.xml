@@ -371,4 +371,21 @@
     </Server>
   </BrokerItem>
   
+  <BrokerItem>
+    <Label>浙商期货中金仿真</Label>
+    <Server>
+      <ServerItem>
+        <AuthCode />
+        <BrokerID>6010</BrokerID>
+        <Trading>
+           <string>tcp://122.224.243.43:2855</string>
+        </Trading>
+        <MarketData>
+           <string>tcp://122.224.243.43:2850</string>
+        </MarketData>
+        <Label>浙商期货中金仿真（联通）</Label>
+      </ServerItem>
+    </Server>
+  </BrokerItem>
+  
 </ArrayOfBrokerItem>
