@@ -388,4 +388,21 @@
     </Server>
   </BrokerItem>
   
+   <BrokerItem>
+    <Label>中金飞马仿真</Label>
+    <Server>
+      <ServerItem>
+        <AuthCode />
+        <BrokerID>0210</BrokerID>
+        <Trading>
+           <string>tcp://116.228.53.156:17011</string>
+        </Trading>
+        <MarketData>
+           <string>tcp://116.228.53.156:17101</string>
+        </MarketData>
+        <Label>中金飞马仿真(张江)</Label>
+      </ServerItem>
+    </Server>
+  </BrokerItem>
+  
 </ArrayOfBrokerItem>
